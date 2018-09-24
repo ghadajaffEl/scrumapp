@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+.backloglist-container {
+  position: absolute;
+  left: 0;
+}
+.bodybg {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100vw;
+}
+.modify-project {
+  display: flex;
+  margin-top: -22px;
+  margin-left: 15vw;
+}
+.userstory {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.userStory-container {
+  display: flex;
+}
+.formbacklog {
+  display: flex;
+}
+.projectpropertie-container {
+  display: flex;
+}
+.project-container {
+  position: relative;
+  left: 25vw;
+  top: 5vw;
+}
+.backlog-container {
+  position: absolute;
+  left: 20vw;
+  top: 5vw;
+}
+.App {
+  text-align: center;
+}
+
+.container-drag {
+  text-align: center;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 2vw;
+}
+.inprogress {
+  /* position: relative;
+  width: 20vw;
+  height: 100vw;
+  left: 20vw;*/
+  background-color: #ffffff;
+  min-height: 38vw;
+  border-radius: 2px;
+  margin: 8px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.title-user {
+  width: 20vw !important;
+  background-color: #009688 !important;
+  border: 1px solid #009688 !important;
+}
+.userstory {
+  background-color: white;
+  width: 19vw;
+  border-left: 0.5vw solid #33ffff;
+  height: 5vw;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 6vw;
+}
+.img-inprogress {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 13vw;
+}
+.img-member {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid rgb(233, 221, 221);
+}
+.member-container {
+  display: flex;
+  margin-left: 7vw;
+  margin-top: -30px;
+  width: 180px;
+  height: 50px;
+}
+.team-member {
+  background-color: white;
+  width: 19vw;
+  border-left: 0.5vw solid #ff0066;
+  height: 5vw;
+  margin-left: 0.5vw;
+  margin-top: 1vw;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.img-member-position {
+  margin-top: -80px;
+  margin-right: 12vw;
+}
+.icon-edit {
+  margin-left: 15vw;
+}
+.icon-check {
+  margin-left: 15vw;
+  margin-top: -10px;
+}
+.task {
+  font-family: "Times New Roman";
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  font-weight: bold;
+}
+.story-status {
+  height: 3vw;
+  margin-top: 1vw;
+  width: 4vw;
+}
+.draggable {
+  width: 21vw;
+  height: 100px;
+  border: 1px solid black;
+}
+.isdone {
+  min-height: 38vw;
+  background-color: #ffffff;
+  min-height: 38vw;
+  border-radius: 2px;
+  margin: 8px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.done {
+  background-color: white;
+  width: 19vw;
+  margin-top: 1vw;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+  border-left: 0.5vw solid #009900;
+  height: 5vw;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+}
+.team {
+  /* position: absolute;
+  left: 60vw;
+  top: -5px;*/
+  background-color: #ffffff;
+  min-height: 38vw;
+  border-radius: 2px;
+  margin: 8px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.draggableName {
+  width: 10vw;
+  border: 1px solid black;
+}
+
+.draggable-backloglist {
+  width: 20vw;
+  min-height: 38vw;
+  background-color: #ffffff;
+  min-height: 38vw;
+  border-radius: 2px;
+  margin: 8px;
+
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.sprint-container {
+  background-color: white;
+  width: 19vw;
+  border-left: 0.5vw solid #860c6c;
+  height: 12vw;
+  margin-left: 0.5vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.input {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1vw;
+  margin-left: 1vw;
+}
+.validate {
+  color: green;
+  margin-left: 15vw;
+}
